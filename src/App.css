@@ -1,0 +1,177 @@
+/* Quiz */
+/* .quiz {
+  background: url("./assets/images/quiz.jpg");
+  background-size: cover;
+  height: 100vh;
+} */
+
+.quiz {
+  position: absolute;
+  top: 5%;
+}
+
+
+.insidePopup--div ul li {
+  display: inline-block;
+  padding: 5px;
+  margin-left: 25px;
+  font-weight: 600;
+  color: rgb(171, 35, 35);
+}
+
+.insidePopup--div ul li:hover {
+  color: blue;
+  cursor: pointer;
+  border-bottom: 2px solid var(--primary);
+}
+
+.insidePopup--div ul li.active {
+  color: white;
+  background: var(--border);
+  border-bottom: 2px solid var(--primary);
+}
+
+/* Technology */
+.technology {
+  background: url("./assets/images/tech.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Entertainment */
+.Entertainment {
+  background: url("./assets/images/Entertain.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Geographical */
+.Geographic {
+  background: url("./assets/images/Geograhic.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Place */
+.place {
+  background: url("./assets/images/place.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+/* sports */
+.sport {
+  background: url("./assets/images/sports.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+/* space */
+.space {
+  background: url("./assets/images/spac.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Layout */
+.layout {
+  background: url("./assets/images/back.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.bg-btn {
+  background: rgb(81, 29, 29);
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  mix-blend-mode: difference;
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+
+.bg-btn .link,
+.bg-btn1 .link,
+.bg-btn2 .link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.bg-btn1 {
+  background: rgb(81, 29, 29);
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  mix-blend-mode: difference;
+  position: relative;
+  top: 35%;
+  left: 25%;
+}
+
+.bg-btn2 {
+  background: rgb(81, 29, 29);
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  mix-blend-mode: difference;
+  position: relative;
+  top: 45%;
+  left: 25%;
+}
+
+/* Generate */
+.generate {
+  background: url("./assets/images/generate.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.password-generator {
+  background: url("./assets/images/pass.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.qr-code-generator {
+  background: url("./assets/images/qr.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.quote-generator {
+  background: url("./assets/images/quote.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+/* calculator */
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+input[type="text"] {
+  /* height:; */
+  width: 100%;
+  font-size: 35px;
+  border: 7px solid gray;
+}
+
+.calculator {
+  background: url("./assets/images/calculator.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+/* calculate */
+.calculate {
+  background: url("./assets/images/calculate.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.birth {
+  background: url("./assets/images/birth.jpg");
+  background-size: cover;
+  height: 100vh;
+}
