@@ -8,18 +8,23 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 The project consist of different small project such as
-==> Quiz app
+**==> Quiz app**
+
     -->Question consists of different fields such as
+    
         ->Technology
         ->Space
         ->Sports
         ->Entertainment
         ->Place
         ->Geographic
-==>Different generator
+**==>Different generator**
+
     -->Quote Generator
     -->QR Generator
     -->Password generator
-==>Calculation
+    
+**==>Calculation**
+
     -->Calculator
     -->Birthday Calculation
