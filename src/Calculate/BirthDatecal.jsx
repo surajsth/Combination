@@ -34,24 +34,25 @@ function BirthDatecal() {
                 <div className='card position-absolute top-50 start-50 translate-middle p-4 w-50 bg-secondary' style={{
                     mixBlendMode: "difference",
                 }}>
-                    <h2>Age Calculator</h2>
+                    <h2 className='text-center text-white'>Age Calculator</h2>
                     <div className="block">
-                        <p className="title">Date</p>
-                        <input type="text" className="date" id="date" placeholder='dd' minLength={1} maxLength={2} required />
+                        <p className="title text-white text-bold">Date</p>
+                        <input type="text" className="date" id="date" placeholder='Date' minLength={1} maxLength={2} required />
                     </div>
                     <div className="block">
-                        <p className="title">Month</p>
-                        <input type="text" className="month" id="month" placeholder='mm' minLength={1} maxLength={2} required />
+                        <p className="title ">Month</p>
+                        <input type="text" className="month" id="month" placeholder='Month' minLength={1} maxLength={2} required />
                     </div>
                     <div className="block">
                         <p className="title">Year</p>
-                        <input type="text" className="year" id="year" placeholder='yy' minLength={1} maxLength={4} required />
+                        <input type="text" className="year" id="year" placeholder='Year' minLength={1} maxLength={4} required />
                     </div>
                     <div className="base">
                         <input className="btn btn-success mt-4" type="submit" value="Submit" onClick={handleAge} />
                     </div>
                     <div className="age text-center text-white" id="age" style={{
-                        fontSize: "25px"
+                        fontSize: "25px",
+                        backgroundColor: "black"
                     }}>
 
                     </div>
